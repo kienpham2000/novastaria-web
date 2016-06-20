@@ -1464,7 +1464,7 @@
 		text-align: center;
 	}
 
-		input[type="button"].icon:before,
+  	input[type="button"].icon:before,
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
 		button.icon:before,
@@ -1481,6 +1481,7 @@
 		button:hover,
 		.button:hover {
 			background: #fd887a;
+      text-decoration: none;
 		}
 
 		input[type="button"]:active,
@@ -1796,6 +1797,13 @@
 				font-size: 0.85em;
 				letter-spacing: 2px;
 				padding: 0.85em 2.75em 0.85em 2.75em;
+			}
+
+      .btn-sm {
+				font-size: 0.65em;
+        letter-spacing: 1px;
+        width: 100%;
+        background: #5dcf73;
 			}
 
 		/* List */
